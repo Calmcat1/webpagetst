@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  background-color: lavender;
+}
+
+img{
+  width:40px;
+}
+
+.maincontainer{
+
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.navbar{
+
+  width: 100vw;
+  height: 20px;
+  
+}
+
+.sidebar{
+
+ 
+  width: 100px;
+  height:100vh;
+  display:flex;
+  
+
+}
+
+.innerelements{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.innerelements:hover{
+  background-color: rgba(255, 255, 255, 0.56);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.innerelements:active{
+
+  opacity: 0.6;
+}
+
+
+
+
+
